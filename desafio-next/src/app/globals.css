@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #FA8400;
+    --secondary: #f4f4f4;
+    --terciary: #a166a6;
+  
+  --xxsmal: 0.5rem;
+  --xsmal: 0.75rem;
+  --smal: 1rem;
+  --medium: 1.5rem;
+  --large: 2rem;
+  --xlarge: 3rem;
+}
+
+
+body {
+  background-color: #023047;
+}
+
+@font-face {
+  font-family: "PressStart";
+  src: url("../fonts/press2p/PressStart2P-Regular.ttf");
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf");
+  font-style: normal;
+  font-display: swap;
+}
+
+@media screen and (min-width: 780px) {
+  .full-width-img {
+  margin: auto;
+  width: 90%;
+  }
+}
+  
